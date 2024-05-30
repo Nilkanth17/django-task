@@ -19,15 +19,6 @@ from rest_framework.authtoken.models import Token
 from django.http import JsonResponse
 
 
-
-
-
-
-
-
-
-
-
 # Create your views here.
 @api_view(['POST'])
 def view_createc(request):
