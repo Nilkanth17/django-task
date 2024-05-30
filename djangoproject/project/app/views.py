@@ -18,7 +18,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.authtoken.models import Token
 from django.http import JsonResponse
 
- #nilkanth 
+ #rakshit dharaiya koffeekodes
  
 # Create your views here.
 @api_view(['POST'])
