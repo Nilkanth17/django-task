@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Forms</h2>
+
+<form method="POST" enctype="multipart/form-data">
+     {% csrf_token %}
+  <label for="fname">category:</label><br>
+  <input type="text" id="fname" name="category" value=""><br>
+  <h1></h1>
+  <label for="lname">description:</label><br>
+  <input type="text" id="lname" name="description" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+</body>
+</html>
